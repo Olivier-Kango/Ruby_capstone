@@ -8,3 +8,5 @@ CREATE TABLE animals(
   neutered BOOLEAN,
   wight_kg DEC
 );
+
+INSERT INTO animals (name, date_of_birth, escape_attempts, neutered, wight_kg) VALUES ('Augmon', '2001-07-13', 0, FALSE, 12.23);
